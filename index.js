@@ -4,7 +4,7 @@ addEventListener('fetch', event => {
 
   const originalUrl = new URL(event.request.url);
 
-  const hostname = 'ytradio.klyouno.repl.co; // Modify to your own node IP/domain name
+  const hostname = 'https://ytradio.klyouno.repl.co; // Modify to your own node IP/domain name
 
   const options = {
 
